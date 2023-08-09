@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(98, 219, 209);
+}
+
+nav{
+    background-color: rgb(253, 253, 253);
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    
+}
+nav > img{
+    height: 48px; 
+    padding: 2px 10px;
+   
+}
+nav > h1{
+    font-size: 20px;
+    display: inline;
+    margin-right: 150px;
+}
+nav > a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+nav >a:hover{
+    color: rgba(0, 0, 0, 0.712);
+    font-size: 15px;
+}
+
+.im-dev{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.im-dev-right{
+    padding-left: 30px;
+    
+}
+.im-dev-right>h1{
+    font-size: 2em;
+    font-weight: bold;
+}
+.im-dev-right>p{
+    font-size: 16px;
+    padding-top: 0px;
+}
+.more-about-me{
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+.icons>img{
+    height: 30px;
+}
+
+
+.jovem-dev{
+    height: 400px;
+    
+}

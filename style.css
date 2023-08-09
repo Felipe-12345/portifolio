@@ -3,9 +3,12 @@
     padding: 0px;
     box-sizing: border-box;
 }
+p{
+    line-height: 27px;
+}
 
 body{
-    background-color: rgb(98, 219, 209);
+    background-color: rgb(255, 255, 255);
 }
 
 nav{
@@ -23,12 +26,13 @@ nav > img{
 nav > h1{
     font-size: 20px;
     display: inline;
-    margin-right: 150px;
+    margin-right: 200px;
 }
 nav > a{
     text-decoration: none;
     color: black;
     padding: 10px;
+    padding-right: 25px;
 }
 nav >a:hover{
     color: rgba(0, 0, 0, 0.712);
@@ -65,7 +69,7 @@ nav >a:hover{
 .icons{
     padding: 5px 20px;
 }
-.icons>img{
+.icons>a>img{
     height: 35px;
     padding:5px;
     
@@ -82,12 +86,20 @@ nav >a:hover{
     margin: auto;
     width: 80%;
     background-color: white;
-    
-    
-
 }
+
 .sobre-mim>h1{
-font-weight: bold;
+    margin-bottom: 25px;
+    border-bottom: 2px solid black;
+    width: 200px;
+    font-weight: bold;
+}
+
+
+.text1{
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-bottom: 20px;
 }
 
 .habilidades{
@@ -137,7 +149,7 @@ font-weight: bold;
     margin: auto;
     width: 80%;
     background-color: white;
-    position: relative;
+    
 }
 .projetos>h1{
     font-weight: bold;
@@ -150,12 +162,103 @@ font-weight: bold;
 margin-left: 30px;  
 }
 
-.card{
-    
+.card{   
     margin: 10px;
     margin-top: 50px;
+    display: inline-block; 
+}
+
+.contato{
     
+    padding: 40px;
+    border-top: 1px solid black;
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    
+}
+.contato>h1{
+    padding: 10px;
+    width: 175px;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.perfil{
     display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 250px;
+    width: 280px;
+    padding: 16px;
+    margin-top: 40px;
+    margin-left: 100px;
+    
+}
+
+.perfil>h2{
+   margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.perfil>p{
+    padding: 0px 17px;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: justify;
+}
+.perfil-icons>a>img{
+  padding: 0px 10px;
+  height: 50px;
+  width: 70px;
+}
+.perfil-icons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.container-redes{
+    display: flex;
+    float: right;
+}
+
+.redes{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 250px;
+    width: 280px;
+    padding: 16px;
+    margin-top: 40px;
+    margin-right: 100px;
     
     
 }
+.redes>h2{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.6em;
+    text-align: center;
+}
+.redes>p{
+    padding: 0px 17px;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: justify;
+}
+.redes-icons>a>img{
+    margin-top: 8px;
+    padding: 0px 10px;
+    height: 50px;
+    width: 70px;
+  }
+.redes-icons{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      
+  }

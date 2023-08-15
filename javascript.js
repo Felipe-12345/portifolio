@@ -24,3 +24,31 @@ document.addEventListener("DOMContentLoaded", function() {
     lermais.addEventListener("click", lerMais);
     lermenos.addEventListener("click", lerMenos);
 });
+
+
+
+
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+        console.log("JavaScript carregado e em execução.");
+
+        var links = document.querySelectorAll("nav a[href^='#']");
+
+        links.forEach(function(link) {
+            link.addEventListener("click", function(event) {
+                event.preventDefault();
+
+                var targetId = link.getAttribute("href");
+                var targetElement = document.querySelector(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: "smooth"
+                    });
+                }
+            });
+        });
+    });
+
